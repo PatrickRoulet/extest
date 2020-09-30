@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="exa3" />
+        <module name="ExA2" />
         <module name="ExA1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ExA1" target="8" />
+      <module name="ExA2" target="8" />
+      <module name="exa3" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
