@@ -1,0 +1,5 @@
+be/abis/exc1/model/Person.class
+be/abis/exc1/model/Address.class
+be/abis/exc1/test/exc1.class
+be/abis/exc1/exception/PersonShouldBeAdultException.class
+be/abis/exc1/model/Company.class
