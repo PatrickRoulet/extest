@@ -1,0 +1,8 @@
+be/abis/exc2/model/Company.class
+be/abis/exc2/test/ExC2.class
+be/abis/exc2/model/Person.class
+be/abis/exc2/exception/SalaryTooLowException.class
+be/abis/exc2/service/AbisPaymentService.class
+be/abis/exc2/exception/PersonShouldBeAdultException.class
+be/abis/exc2/model/Address.class
+be/abis/exc2/service/PaymentService.class
