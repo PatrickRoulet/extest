@@ -67,6 +67,6 @@
   <testcase classname="be.abis.exc2.ut.TestPerson" name="ageOfPersonFromBirthDateShouldBe42" time="0.067"/>
   <testcase classname="be.abis.exc2.ut.TestPerson" name="calculateNetSalaryOfBelgianPersonUsingMockCompany" time="0.014"/>
   <testcase classname="be.abis.exc2.ut.TestPerson" name="salaryOfPersonShouldThrowException" time="0"/>
-  <testcase classname="be.abis.exc2.ut.TestPerson" name="ageOfPersonShouldThrowException" time="0.001"/>
-  <testcase classname="be.abis.exc2.ut.TestPerson" name="toStringSentenceStartsWithPerson" time="0.001"/>
+  <testcase classname="be.abis.exc2.ut.TestPerson" name="ageOfPersonShouldThrowException" time="0"/>
+  <testcase classname="be.abis.exc2.ut.TestPerson" name="toStringSentenceStartsWithPerson" time="0.002"/>
 </testsuite>

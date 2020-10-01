@@ -19,11 +19,6 @@ public class TestPaymentService {
     @Mock
     public Person person;
 
-    @Before
-    public void setUp() {
-        person = new Person();
-    }
-
     @Test(expected = SalaryTooLowException.class)
     public void salaryOfPersonShouldThrowException() throws SalaryTooLowException {
         PaymentService paymentService = new AbisPaymentService();
