@@ -1,0 +1,2 @@
+Address{street='street', nr='12', zipCode='3000', town='Leuven', country='Belgium', countryCode='BE'}
+Address{street='street', nr='12', zipCode='3000', town='Leuven', country='Belgium', countryCode='BE'}
