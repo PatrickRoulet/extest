@@ -1,6 +1,7 @@
 package be.abis.exc1.ut;
 
 import be.abis.exc1.exception.PersonShouldBeAdultException;
+import be.abis.exc1.model.Address;
 import be.abis.exc1.model.Company;
 import be.abis.exc1.model.Person;
 import org.junit.*;
@@ -51,9 +52,10 @@ public class TestPerson {
     @Test
     public void calculateNetSalaryOfBelgianPersonUsingMockCompany() {
         Person person1 = new Person(1,"Patrick","Roulet",
-                LocalDate.of(1978,6,6), company);
-        Mockito.when(company.calculateTaxToPay()).thenReturn(51.0);
+                LocalDate.of(1978,6,6), company, 1000.0);
+        Mockito.when(company.calculateTaxToPay()).thenReturn(0.49);
         double taxToPay = person1.calculateNetSalary();
         verify(company).calculateTaxToPay();
     }
+
 }

@@ -108,6 +108,6 @@ public class Person {
 	}
 
 	public double calculateNetSalary() {
-		return company!=null ? grossSalary*company.calculateTaxToPay() : 0.0;
+		return company!=null ? grossSalary*(1-company.calculateTaxToPay()/100.0) : 0.0;
 	}
 }
